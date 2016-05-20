@@ -1,0 +1,45 @@
+p{
+	width: 800px;
+	height: 175px;
+	font-family: Tahoma;
+	font-size: 150px;
+	margin: 50px auto 0;
+	padding: 75px 50px;
+	background: rgba(76,76,76,1);
+	color: white;
+	text-shadow: 5px 5px 5px #330033;
+	border-radius: 25px;
+	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+button{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	font-size: 65px;
+	border: 2px solid black;
+	font-weight: bold;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+.clear_button{
+	top: 400px;
+	left:226px;
+	background: red;
+}
+.buttons_visibility{
+	display: block;
+	position: absolute;
+	position: relative;
+	margin: 0;
+	height: 100px;
+	width:200px;
+	top: 25px;
+    left: 930px;
+}
+.start_button{
+	background: yellow;
+}
+.stop_button{
+	z-index: -1;
+	background: blue;
+}
