@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/templating.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<script type="text/template" id="test">
+		<div class="page">
+			<div class="content">
+				<div class="box header">
+					<h2><%= data[0].name %></h2>
+					<img src= <%= data[0].imgSrc %>>
+					<p> <%= data[0].discription %> </p>
+				</div>
+				<div class="box motivation">
+					<p>Хочу учить фронтенд, потому что:</p>
+					<ul>
+						<% for(var i = 0; i < data[1].motivationList.length; i++ ){ %>
+							<li><%= data[1].motivationList[i] %></li>
+						<% } %>
+					</ul>
+				</div>
+				<div class="box contacts">
+					<p class="phone"> 
+						Мой контактный телефон <br>
+						<span><%= data[2].phone %></span>
+					</p>
+					<p class="vk">
+						Мой профиль вконтакте <br>
+						<a target="_blank" href=<%= data[2].vk %>>vk.com</a>
+					</p>
+				</div>
+				<div class="box feedback">
+					<p>
+						Мой фидбек: <br>
+						<%= data[3].feedback %>
+					</p>
+				</div>
+			</div>
+		</div>
+	</script>
+</body>
+</html>
