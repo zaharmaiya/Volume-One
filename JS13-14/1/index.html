@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/templating.js"></script>
+<script src="js/QBase.js"></script>
+</head>
+<body>
+	<script type="text/template" id="test">
+		<div class="page">
+			<h1> <%=data.title %> </h1>
+			<form class="test__box" action="#">
+					<% for(var i = 0; i < data.question.length; i++) { %>
+					<ol class="test"> <%=data.question[i].q %>
+						<% for(var j = 0; j < data.question[i].answer.length;j++) { %>
+						<li> 
+							<label>
+							<input type="checkbox" class="<%='check'+i%>" id="<%='chBox_'+i+'_'+j%>">
+							<%=data.question[i].answer[j].text %>
+							</label>
+						</li>
+						<% } 
+						%>
+					</ol>	
+					<% } %>
+			</form>
+			<a href="#modal" role="button" class="btn" data-toggle="modal">Проверить себя</a>
+
+			<div id="modal" class="modal hide fade">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h2>Ответы на тесты</h2>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</script>
+</body>
+</html>
