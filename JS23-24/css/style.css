@@ -1,0 +1,72 @@
+*{
+	font-style: Tahoma;
+}
+body{
+	background: url(../img/1-hands-png-hand-image-.png);
+	background-size: cover;
+	background-position: top 30px;
+}
+.wrapper{
+	margin: 60px auto 0;
+	padding: 20px;
+	background: url(../img/paper-cell-crumpled.jpg);
+	width: 500px;
+	height: 500px;
+	border: 3px solid black;
+	color: blue;
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+h1{
+	margin: 7px auto 15px;
+	font-size: 30px;
+}
+
+li{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+
+.item-delete{
+	float: right;
+	font-style: Tahoma;
+	color: red;
+	width: 19px;
+	height: 19px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+.item-delete:hover{
+	cursor: pointer;
+	background: gray;
+	color: white;
+}
+
+li input {
+	font-style: Tahoma;
+	color: blue;
+	/*text-align: center;*/
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+	font-size: 19px;
+	line-height: 19px;
+	display: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border: none;
+	background: inherit;
+} 
+li input:focus{
+	border: 0;
+	border: inherit;
+}
+
+.item-add{
+	font-size: 15px; 
+}

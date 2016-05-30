@@ -1,0 +1,42 @@
+$bd-top-style: 1px solid #181a1d;
+
+@mixin item-style{
+	display:block;
+    float: left;
+}
+
+@mixin parent-box{
+	display: block;
+  	margin: 0 auto;
+}
+
+@mixin clearfix {
+  display: inline-block;
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  * html & { height: 1px }
+}
+
+@mixin date-temp{
+	position: absolute;
+	display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+@mixin link-style{
+	text-decoration: none;
+    color: #248cec;
+}
+
+@mixin sprite{
+	background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+}

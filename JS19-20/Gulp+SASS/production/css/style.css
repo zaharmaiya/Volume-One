@@ -1,0 +1,68 @@
+.page__inner{
+	display: block;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.content{
+	width: 1160px;
+}
+
+.head{
+	padding: 36px 0 0 4px;
+	position: relative;
+	overflow: hidden;
+	height: 72px;
+}
+.head__logo{
+	float: left;
+}
+.head__socials{
+	margin-top: 12px;
+	float: right;
+	position: relative;
+	width: 150px;
+	height: 16px;
+}
+.head__socials a{
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 0 10px 0 3px;
+}
+.head .facebook{
+	background: url(../img/facebook_gray.png) no-repeat;
+}
+.head .twitter{
+	background: url(../img/twitter_blue.png) no-repeat center;
+}
+.head .rss{
+	margin-left: 8px;
+	background: url(../img/rss_gray.png) no-repeat center;
+}
+.head .linkedin{
+	margin-left: 6px;
+	background: url(../img/linkedin_gray.png) no-repeat center;
+}
+.head .skype{
+	margin: 0px 0px 0px 7px;
+	background: url(../img/skype_gray.png) no-repeat center;
+}
+
+/*NAV*/
+
+.navigation{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 56px;
+	margin-top: 2px;	
+}
+.navigation__menu{
+	float: left;
+	position: relative;
+}
+.navigation__menu a{
+
+}
