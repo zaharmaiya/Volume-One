@@ -1,0 +1,49 @@
+* {
+	font-family: Arial, Tahoma;
+}
+.content__block .header__block .header__nav .header__signup {
+	background: url(../../img/ie/white_line.png);	
+	border: none;
+	padding: 10px 21px;
+}
+.content__block .header__block .header__link  {
+	background: url(../../img/ie/header_logo_ie.png);	
+	padding: 12px 33px;
+}
+.content__block .slider__block .slider__info .slider__step {
+	background: url(../../img/ie/back_step_ie.png);	
+	padding: 3px 0px;
+}
+.content__block .partners__block .partners__items .partners__item + * {
+	left: 260px;
+}
+.content__block .partners__block .partners__items .partners__item + * + * {
+	left: 500px;
+}
+.content__block .partners__block .partners__items .partners__item + *  + * + *{
+	left: 730px;
+}
+.content__block .partners__block .partners__link {
+	background: url(../../img/ie/radius_line.png);
+	border: none;
+	padding: 12px 29px;
+}
+.content__block .image__block .image__wrapper .element span {
+	left: 140px;
+}
+.content__block .image__block .image__wrapper  .fat span{
+	left: 285px;
+}
+.content__block .image__block .search__form .search__submit {
+	background: url(../../img/ie/footer_back_ie.png);	
+	padding: 12px 21px;
+	width: 160px;
+}
+.content__block .footer__block .footer__elem .footer__nav + * + * + *{
+	background: url(../../img/footer_logo.png);
+	width: 110px;
+	height: 42px;
+	float: right;
+	margin-right: 0;
+	margin-top: 3px;
+}

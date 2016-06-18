@@ -1,0 +1,20 @@
+$break-mobile:	320px;
+$break-tablet:	940px;
+$break-desktop:	1440px;
+$font: 			"Montserrat-Bold";
+$addFont:		"Roboto-Light";
+$colorHeadLink:	#ff6666; 
+$arrow:			url(../../img/arrow.png);
+$spritePartner:	url(../../img/sprite_partners.png);
+$spriteSmall:	url(../../img/sprite_small_partners.png);
+$footerLogo:	url(../../img/footer_logo.png);
+$backImgDesktop:url(../../img/back_img.png);
+$backImgTablet:	url(../../img/back_img_tablet.png);
+$backImgMobile:	url(../../img/back_img_mobile.png);
+
+@mixin sprite($width, $height, $backImg, $backPos){
+	width: $width;
+	height: $height;
+	background-image: $backImg;
+	background-position: $backPos;
+}
